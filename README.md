@@ -33,7 +33,7 @@ Don't forget rebooting your computer between both steps.
 - To package the app, use [electron-packager](https://github.com/maxogden/electron-packager):
 
 ```
-electron-packager . soundcast --platform=darwin --arch=x64 --version=0.36.0 --icon=icon.icns
+electron-packager . soundcast --platform=darwin --arch=x64 --version=0.34.0 --icon=icon.icns
 ```
 ## Changelog
 - **v1.x [2015/12/11]:** From this version, we'll be using Github's [Releases](https://github.com/andresgottlieb/soundcast/releases) to keep track of version changes.
