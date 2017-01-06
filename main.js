@@ -74,6 +74,9 @@ mb.on('ready', function ready () {
       console.log('chromecast', chromecast.name);
 
       var label = chromecast.name;
+      if (chromecast.txtRecord.fn) {
+          label = chromecast.txtRecord.fn;
+      }
 
       if(chromecast.txtRecord.md === 'Chromecast Audio'){
         label += ' ' + String.fromCharCode('0xD83D','0xDD0A');
