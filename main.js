@@ -153,8 +153,8 @@ mb.on('ready', function ready () {
     menu.append(new MenuItem({
       label: 'Reset audio adapter',
       click: function(){
-        /*Remember this option was clicked, so it isn' changed back to Soundflower
-          when quiting*/
+        /*Remember this option was clicked, so it isn't changed back to Soundflower
+          when quitting*/
         adapter_reset = true;
         //Enables "Start casting" and disables "Stop casting" options
         for(var j=0;j<castmenu.items.length;j++) {
