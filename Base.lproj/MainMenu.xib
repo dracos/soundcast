@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="11762" systemVersion="16C68" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11762"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
+            <connections>
+                <outlet property="delegate" destination="Voe-Tx-rLC" id="GzC-gU-4Uq"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="SoundCaster" customModuleProvider="target"/>
+        <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
+        <customObject id="NGI-Sk-JVH" customClass="StatusMenuController" customModule="SoundCaster" customModuleProvider="target">
+            <connections>
+                <outlet property="castToMenuItem" destination="3XQ-QV-rqL" id="hTU-q0-APK"/>
+                <outlet property="statusMenu" destination="iTq-KR-gD0" id="Hhv-ID-ke5"/>
+                <outlet property="stopCastingItem" destination="QyQ-bz-prJ" id="s1q-NY-qEG"/>
+            </connections>
+        </customObject>
+        <menu autoenablesItems="NO" id="iTq-KR-gD0">
+            <items>
+                <menuItem title="Cast to" id="3XQ-QV-rqL">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <menu key="submenu" title="Cast to" autoenablesItems="NO" id="HTl-oG-fMW">
+                        <items>
+                            <menuItem isSeparatorItem="YES" tag="1" id="AOP-Tr-Dqo"/>
+                            <menuItem title="Refresh" id="cF6-6s-mXr">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="updateClicked:" target="NGI-Sk-JVH" id="SU1-Ye-LqG"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                </menuItem>
+                <menuItem title="Stop casting" id="QyQ-bz-prJ">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="stopCastingClicked:" target="NGI-Sk-JVH" id="d6P-lk-7aF"/>
+                    </connections>
+                </menuItem>
+                <menuItem isSeparatorItem="YES" id="QLV-Im-Iod"/>
+                <menuItem title="Reset audio adapter" id="dsz-4e-1Uw">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="resetAdapterClicked:" target="NGI-Sk-JVH" id="nJO-Xj-NnB"/>
+                    </connections>
+                </menuItem>
+                <menuItem title="About" id="Sud-sw-Itj">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="aboutClicked:" target="NGI-Sk-JVH" id="Led-mQ-cU2"/>
+                    </connections>
+                </menuItem>
+                <menuItem title="Quit" id="6zx-3E-ky4">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="quitClicked:" target="NGI-Sk-JVH" id="R8w-Rt-x5q"/>
+                    </connections>
+                </menuItem>
+            </items>
+            <point key="canvasLocation" x="140" y="159.5"/>
+        </menu>
+    </objects>
+</document>

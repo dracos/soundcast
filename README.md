@@ -1,23 +1,21 @@
-# Soundcast
+# Soundcaster
 Mac OS X Menubar app to cast system audio to Chromecast.
 
-![](https://raw.githubusercontent.com/dracos/soundcast/spellcasting-C-A-S-T/screenshot.png)
+![](https://raw.githubusercontent.com/dracos/soundcaster/spellcasting-C-A-S-T/screenshot.png)
 
 ## Installation and usage:
 
-1. Download and install [Node](https://nodejs.org/en/) LTS.
 1. Download and install [Soundflower v2.0b2](https://github.com/mattingalls/Soundflower/releases/download/2.0b2/Soundflower-2.0b2.dmg) (if you have a previous version, follow [these instructions](https://support.shinywhitebox.com/hc/en-us/articles/202751790-Uninstalling-Soundflower) to uninstall it and then install v2.0b2).
-2. Download the [newest version](https://github.com/dracos/soundcast/releases) of Soundcast, unzip it and drop it into your Applications folder.
+2. Download the [newest version](https://github.com/dracos/soundcaster/releases) of Soundcaster, unzip it and drop it into your Applications folder.
 3. If you want it to start automatically with your computer do [this](http://www.howtogeek.com/206178/mac-os-x-change-which-apps-start-automatically-at-login/).
 
 ## Development
-- This app uses [Electron](http://electron.atom.io/).
-- To package the app, use [electron-packager](https://github.com/maxogden/electron-packager):
 
-```
-electron-packager . soundcast --platform=darwin --arch=x64 --version=0.34.0 --icon=icon.icns
-```
+The app includes node_modules packaged, these are not included in the repo.
+An `npm install` will generate them. The app is built with XCode as normal.
+
 ## Changelog
+- **v2.0 [2017/01/08]:** Horrified by size of app, started Cocoa version
 - **v1.8 [2017/01/06]:** Working on my computer
 - **v1.x [2015/12/11]:** From this version, we'll be using Github's [Releases](https://github.com/andresgottlieb/soundcast/releases) to keep track of version changes.
 - **v1.4 [2015/10/25]:** Fixed bug that didn't allow casting to Chromecasts named using spaces.
@@ -27,15 +25,13 @@ electron-packager . soundcast --platform=darwin --arch=x64 --version=0.34.0 --ic
 
 ## Known issues
 - Unexpected behavior when trying to cast to a Chromecast while it's booting (or just booted). This is an issue in the `chromecast-osx-audio` module dependency.
-- Sometimes the default `menubar` cat icon is shown for a few seconds instead of the Chromecast icon when launching Soundcast.
-- Incompatible with chromecasts including double quotes (") in their name.
  
 ## Windows users
 
 Soundcast only works on Mac OS X, but there exists a similar app for Windows: [Chromecast Audio Stream](https://github.com/acidhax/chromecast-audio-stream)
 
 ## The MIT License (MIT)
-Copyright (c) 2015 Andrés Gottlieb
+Copyright (c) 2017 Matthew Somerville
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
