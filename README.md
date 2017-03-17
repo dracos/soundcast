@@ -1,5 +1,5 @@
 # Soundcaster
-Mac OS X Menubar app to cast system audio to Chromecast.
+macOS menubar app to cast system audio to Chromecast.
 
 ![](https://raw.githubusercontent.com/dracos/soundcaster/spellcasting-C-A-S-T/screenshot.png)
 
@@ -28,7 +28,7 @@ An `npm install` will generate them. The app is built with XCode as normal.
  
 ## Windows users
 
-Soundcast only works on Mac OS X, but there exists a similar app for Windows: [Chromecast Audio Stream](https://github.com/acidhax/chromecast-audio-stream)
+Soundcast only works on macOS, but there exists a similar app for Windows: [Chromecast Audio Stream](https://github.com/acidhax/chromecast-audio-stream)
 
 ## The MIT License (MIT)
 Copyright (c) 2017 Matthew Somerville
