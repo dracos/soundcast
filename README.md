@@ -8,6 +8,7 @@ macOS menubar app to cast system audio to Chromecast.
 1. Download and install [Soundflower v2.0b2](https://github.com/mattingalls/Soundflower/releases/download/2.0b2/Soundflower-2.0b2.dmg) (if you have a previous version, follow [these instructions](https://support.shinywhitebox.com/hc/en-us/articles/202751790-Uninstalling-Soundflower) to uninstall it and then install v2.0b2).
 2. Download the [newest version](https://github.com/dracos/soundcaster/releases) of Soundcaster, unzip it and drop it into your Applications folder.
 3. If you want it to start automatically with your computer do [this](http://www.howtogeek.com/206178/mac-os-x-change-which-apps-start-automatically-at-login/).
+4. The first time you run it, it will probably say it is damaged and can't be opened. If so, you will need to run `sudo spctl --master-disable`, run it, and then `sudo spctl --master-enable`. You only have to do this the first time.
 
 ## Development
 
