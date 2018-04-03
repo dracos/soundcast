@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3409EB7F1E219D0900AA9545 /* audiodevice in Resources */ = {isa = PBXBuildFile; fileRef = 3409EB7E1E219D0900AA9545 /* audiodevice */; };
+		3409EB811E219EEA00AA9545 /* node_modules in Resources */ = {isa = PBXBuildFile; fileRef = 3409EB801E219EEA00AA9545 /* node_modules */; };
+		3409EB831E219EFE00AA9545 /* package.json in Resources */ = {isa = PBXBuildFile; fileRef = 3409EB821E219EFE00AA9545 /* package.json */; };
+		3409EB851E219FFA00AA9545 /* node in Resources */ = {isa = PBXBuildFile; fileRef = 3409EB841E219FFA00AA9545 /* node */; };
+		34B0D05A1E2058D500910D53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B0D0591E2058D500910D53 /* AppDelegate.swift */; };
+		34B0D05C1E2058D500910D53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34B0D05B1E2058D500910D53 /* Assets.xcassets */; };
+		34B0D05F1E2058D500910D53 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34B0D05D1E2058D500910D53 /* MainMenu.xib */; };
+		34B0D06A1E2058D600910D53 /* SoundCasterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B0D0691E2058D600910D53 /* SoundCasterTests.swift */; };
+		34B0D0751E2058D600910D53 /* SoundCasterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B0D0741E2058D600910D53 /* SoundCasterUITests.swift */; };
+		34B0D0831E20E15B00910D53 /* StatusMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B0D0821E20E15B00910D53 /* StatusMenuController.swift */; };
+		34B0D0851E212A2B00910D53 /* Chromecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B0D0841E212A2B00910D53 /* Chromecast.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34B0D0661E2058D500910D53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34B0D04E1E2058D500910D53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34B0D0551E2058D500910D53;
+			remoteInfo = SoundCaster;
+		};
+		34B0D0711E2058D600910D53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34B0D04E1E2058D500910D53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34B0D0551E2058D500910D53;
+			remoteInfo = SoundCaster;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3409EB7E1E219D0900AA9545 /* audiodevice */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = audiodevice; sourceTree = "<group>"; };
+		3409EB801E219EEA00AA9545 /* node_modules */ = {isa = PBXFileReference; lastKnownFileType = folder; path = node_modules; sourceTree = "<group>"; };
+		3409EB821E219EFE00AA9545 /* package.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = package.json; sourceTree = "<group>"; };
+		3409EB841E219FFA00AA9545 /* node */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = node; sourceTree = "<group>"; };
+		34B0D0561E2058D500910D53 /* SoundCaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundCaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34B0D0591E2058D500910D53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		34B0D05B1E2058D500910D53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34B0D05E1E2058D500910D53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		34B0D0601E2058D500910D53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34B0D0651E2058D500910D53 /* SoundCasterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundCasterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34B0D0691E2058D600910D53 /* SoundCasterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundCasterTests.swift; sourceTree = "<group>"; };
+		34B0D06B1E2058D600910D53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34B0D0701E2058D600910D53 /* SoundCasterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundCasterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34B0D0741E2058D600910D53 /* SoundCasterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundCasterUITests.swift; sourceTree = "<group>"; };
+		34B0D0761E2058D600910D53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34B0D0821E20E15B00910D53 /* StatusMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusMenuController.swift; sourceTree = "<group>"; };
+		34B0D0841E212A2B00910D53 /* Chromecast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chromecast.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34B0D0531E2058D500910D53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34B0D0621E2058D500910D53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34B0D06D1E2058D600910D53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34B0D04D1E2058D500910D53 = {
+			isa = PBXGroup;
+			children = (
+				34B0D0581E2058D500910D53 /* SoundCaster */,
+				34B0D0681E2058D500910D53 /* SoundCasterTests */,
+				34B0D0731E2058D600910D53 /* SoundCasterUITests */,
+				34B0D0571E2058D500910D53 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34B0D0571E2058D500910D53 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34B0D0561E2058D500910D53 /* SoundCaster.app */,
+				34B0D0651E2058D500910D53 /* SoundCasterTests.xctest */,
+				34B0D0701E2058D600910D53 /* SoundCasterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34B0D0581E2058D500910D53 /* SoundCaster */ = {
+			isa = PBXGroup;
+			children = (
+				3409EB841E219FFA00AA9545 /* node */,
+				3409EB821E219EFE00AA9545 /* package.json */,
+				3409EB801E219EEA00AA9545 /* node_modules */,
+				34B0D0591E2058D500910D53 /* AppDelegate.swift */,
+				3409EB7E1E219D0900AA9545 /* audiodevice */,
+				34B0D0821E20E15B00910D53 /* StatusMenuController.swift */,
+				34B0D05B1E2058D500910D53 /* Assets.xcassets */,
+				34B0D05D1E2058D500910D53 /* MainMenu.xib */,
+				34B0D0841E212A2B00910D53 /* Chromecast.swift */,
+				34B0D0601E2058D500910D53 /* Info.plist */,
+			);
+			name = SoundCaster;
+			sourceTree = SOURCE_ROOT;
+		};
+		34B0D0681E2058D500910D53 /* SoundCasterTests */ = {
+			isa = PBXGroup;
+			children = (
+				34B0D0691E2058D600910D53 /* SoundCasterTests.swift */,
+				34B0D06B1E2058D600910D53 /* Info.plist */,
+			);
+			path = SoundCasterTests;
+			sourceTree = "<group>";
+		};
+		34B0D0731E2058D600910D53 /* SoundCasterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				34B0D0741E2058D600910D53 /* SoundCasterUITests.swift */,
+				34B0D0761E2058D600910D53 /* Info.plist */,
+			);
+			path = SoundCasterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34B0D0551E2058D500910D53 /* SoundCaster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34B0D0791E2058D600910D53 /* Build configuration list for PBXNativeTarget "SoundCaster" */;
+			buildPhases = (
+				34B0D0521E2058D500910D53 /* Sources */,
+				34B0D0531E2058D500910D53 /* Frameworks */,
+				34B0D0541E2058D500910D53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoundCaster;
+			productName = SoundCaster;
+			productReference = 34B0D0561E2058D500910D53 /* SoundCaster.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34B0D0641E2058D500910D53 /* SoundCasterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34B0D07C1E2058D600910D53 /* Build configuration list for PBXNativeTarget "SoundCasterTests" */;
+			buildPhases = (
+				34B0D0611E2058D500910D53 /* Sources */,
+				34B0D0621E2058D500910D53 /* Frameworks */,
+				34B0D0631E2058D500910D53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34B0D0671E2058D500910D53 /* PBXTargetDependency */,
+			);
+			name = SoundCasterTests;
+			productName = SoundCasterTests;
+			productReference = 34B0D0651E2058D500910D53 /* SoundCasterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		34B0D06F1E2058D600910D53 /* SoundCasterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34B0D07F1E2058D600910D53 /* Build configuration list for PBXNativeTarget "SoundCasterUITests" */;
+			buildPhases = (
+				34B0D06C1E2058D600910D53 /* Sources */,
+				34B0D06D1E2058D600910D53 /* Frameworks */,
+				34B0D06E1E2058D600910D53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34B0D0721E2058D600910D53 /* PBXTargetDependency */,
+			);
+			name = SoundCasterUITests;
+			productName = SoundCasterUITests;
+			productReference = 34B0D0701E2058D600910D53 /* SoundCasterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34B0D04E1E2058D500910D53 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Matthew Somerville";
+				TargetAttributes = {
+					34B0D0551E2058D500910D53 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					34B0D0641E2058D500910D53 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 34B0D0551E2058D500910D53;
+					};
+					34B0D06F1E2058D600910D53 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 34B0D0551E2058D500910D53;
+					};
+				};
+			};
+			buildConfigurationList = 34B0D0511E2058D500910D53 /* Build configuration list for PBXProject "SoundCaster" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34B0D04D1E2058D500910D53;
+			productRefGroup = 34B0D0571E2058D500910D53 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34B0D0551E2058D500910D53 /* SoundCaster */,
+				34B0D0641E2058D500910D53 /* SoundCasterTests */,
+				34B0D06F1E2058D600910D53 /* SoundCasterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34B0D0541E2058D500910D53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34B0D05C1E2058D500910D53 /* Assets.xcassets in Resources */,
+				3409EB7F1E219D0900AA9545 /* audiodevice in Resources */,
+				3409EB811E219EEA00AA9545 /* node_modules in Resources */,
+				34B0D05F1E2058D500910D53 /* MainMenu.xib in Resources */,
+				3409EB851E219FFA00AA9545 /* node in Resources */,
+				3409EB831E219EFE00AA9545 /* package.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34B0D0631E2058D500910D53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34B0D06E1E2058D600910D53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34B0D0521E2058D500910D53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34B0D0831E20E15B00910D53 /* StatusMenuController.swift in Sources */,
+				34B0D05A1E2058D500910D53 /* AppDelegate.swift in Sources */,
+				34B0D0851E212A2B00910D53 /* Chromecast.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34B0D0611E2058D500910D53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34B0D06A1E2058D600910D53 /* SoundCasterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34B0D06C1E2058D600910D53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34B0D0751E2058D600910D53 /* SoundCasterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34B0D0671E2058D500910D53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34B0D0551E2058D500910D53 /* SoundCaster */;
+			targetProxy = 34B0D0661E2058D500910D53 /* PBXContainerItemProxy */;
+		};
+		34B0D0721E2058D600910D53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34B0D0551E2058D500910D53 /* SoundCaster */;
+			targetProxy = 34B0D0711E2058D600910D53 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		34B0D05D1E2058D500910D53 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34B0D05E1E2058D500910D53 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34B0D0771E2058D600910D53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		34B0D0781E2058D600910D53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		34B0D07A1E2058D600910D53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.dracos.SoundCaster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		34B0D07B1E2058D600910D53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.dracos.SoundCaster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		34B0D07D1E2058D600910D53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SoundCasterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.dracos.SoundCasterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoundCaster.app/Contents/MacOS/SoundCaster";
+			};
+			name = Debug;
+		};
+		34B0D07E1E2058D600910D53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SoundCasterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.dracos.SoundCasterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoundCaster.app/Contents/MacOS/SoundCaster";
+			};
+			name = Release;
+		};
+		34B0D0801E2058D600910D53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SoundCasterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.dracos.SoundCasterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SoundCaster;
+			};
+			name = Debug;
+		};
+		34B0D0811E2058D600910D53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SoundCasterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.dracos.SoundCasterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SoundCaster;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34B0D0511E2058D500910D53 /* Build configuration list for PBXProject "SoundCaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34B0D0771E2058D600910D53 /* Debug */,
+				34B0D0781E2058D600910D53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34B0D0791E2058D600910D53 /* Build configuration list for PBXNativeTarget "SoundCaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34B0D07A1E2058D600910D53 /* Debug */,
+				34B0D07B1E2058D600910D53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34B0D07C1E2058D600910D53 /* Build configuration list for PBXNativeTarget "SoundCasterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34B0D07D1E2058D600910D53 /* Debug */,
+				34B0D07E1E2058D600910D53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34B0D07F1E2058D600910D53 /* Build configuration list for PBXNativeTarget "SoundCasterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34B0D0801E2058D600910D53 /* Debug */,
+				34B0D0811E2058D600910D53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34B0D04E1E2058D500910D53 /* Project object */;
+}
